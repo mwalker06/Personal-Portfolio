@@ -184,10 +184,10 @@ footer a {
 footer a:hover {
   color: var(--text-color);
 }
-#bucket-list ul:first-child li:before {
-  content: "\2713\0020";
-}
 #bucket-list ul {
     list-style: none;
     padding: 0px;
+}
+#resume-button {
+    padding-left: 40%;
 }
