@@ -157,6 +157,7 @@ h2 {
 }
 .card-content {
   padding: 20px;
+  display: flow-root;
 }
 .card-content ul {
   padding: 0px;
@@ -205,4 +206,25 @@ footer a:hover {
 #copyright {
   text-align: right;
   font-size: small;
+}
+.left-image {
+  float: left;
+  margin: 0px 20px 20px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  text-align: center;
+  background-color: var(--card-background-color);
+}
+.right-text {
+ text-align: left;
+}
+.right-image {
+  float: right;
+  margin: 0px 0px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  text-align: center;
+  background-color: var(--card-background-color);
+}
+.left-text {
+  text-align: left;
+}
+#about-card {
+  width: 100%;
 }
