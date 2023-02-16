@@ -184,10 +184,25 @@ footer a {
 footer a:hover {
   color: var(--text-color);
 }
+#bucket-list {
+  background-color: var(--background-color-light);
+  margin: 20px;
+  padding: 40px;
+  max-width: 800px;
+  border-radius: 6px;
+}
+#bucket-list i {
+  text-align: center;
+}
+
 #bucket-list ul {
     list-style: none;
     padding: 0px;
 }
 #resume-button {
     padding-left: 40%;
+}
+#copyright {
+  text-align: right;
+  font-size: small;
 }
