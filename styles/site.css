@@ -32,6 +32,7 @@ main {
 }
 
 footer {
+  padding-left: 15%;
   padding: 5%;
   background-color: var(--nav-background-color);
   color: var(--text-color-light);
