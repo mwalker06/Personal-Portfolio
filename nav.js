@@ -14,7 +14,7 @@ class generateNav extends HTMLElement {
   // connect the component when called
   connectedCallback() {
     // the html to display when the tags are used
-    this.innerHTML = `<div class="sidenav"><a href="../../index.html">Home</a><a href="../about.html">About</a><a href="resume.html">Resume</a><a href="projects.html">Projects</a><a href="database.html">Database Diagrams</a><a href="api.html">API Unit Tests</a><a href="bucketlist.html">Bucket List</a><a href="web-430/walker-tech-value-stream.html">Tech Value Stream Presentation</a><a href="web-430/walker-two-pizza-rule.html">Two-Pizza Rule Presentation</a><a href="web-430/walker-automated-tests.html">Automated Tests Presentation</a></div>
+    this.innerHTML = `<div class="sidenav"><a href="/personal-portfolio/index.html">Home</a><a href="/personal-portfolio/about.html">About</a><a href="/personal-portfolio/resume.html">Resume</a><a href="/personal-portfolio/projects.html">Projects</a><a href="/personal-portfolio/database.html">Database Diagrams</a><a href="/personal-portfolio/api.html">API Unit Tests</a><a href="/personal-portfolio/bucketlist.html">Bucket List</a><a href="/personal-portfolio/web-430/walker-tech-value-stream.html">Tech Value Stream Presentation</a><a href="/personal-portfolio/web-430/walker-two-pizza-rule.html">Two-Pizza Rule Presentation</a><a href="/personal-portfolio/web-430/walker-automated-tests.html">Automated Tests Presentation</a></div>
     `;
   }
 }
