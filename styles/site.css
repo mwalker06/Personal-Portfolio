@@ -320,7 +320,7 @@ footer a:hover {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: var(--button-background-color);
 }
 
 .dropdown-content {
